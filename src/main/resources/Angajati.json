@@ -1,0 +1,32 @@
+[
+  {
+    "post": "sef departament",
+    "data": [2023, 4, 15],
+    "salariu": 3000.0,
+    "nume": "Ion Popescu"
+  },
+  {
+    "nume": "Maria Ionescu",
+    "post": "analist",
+    "data": [2021, 6, 10],
+    "salariu": 2500.0
+  },
+  {
+    "nume": "George Vasilescu",
+    "post": "director tehnic",
+    "data": [2019, 8, 20],
+    "salariu": 4500.0
+  },
+  {
+    "nume": "Ana Dumitru",
+    "post": "specialist marketing",
+    "data": [2022, 5, 30],
+    "salariu": 2000.0
+  },
+  {
+    "nume": "Radu Iliescu",
+    "post": "programator",
+    "data": [2023, 7, 1],
+    "salariu": 3200.0
+  }
+]

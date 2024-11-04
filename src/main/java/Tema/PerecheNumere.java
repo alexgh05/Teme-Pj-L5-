@@ -34,7 +34,7 @@ public class PerecheNumere {
         return true;
     }
 
-    public int cmmc()
+   /* public int cmmc()
     {
         int a,b;
         a=this.A;
@@ -45,8 +45,8 @@ public class PerecheNumere {
             min=a;
         else
             min=b;
-        for(cmmc=min)
+       for(cmmc=min)
         return cmmc;
-    }
+    }*/
 
 }
