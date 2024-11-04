@@ -56,6 +56,12 @@ public class pb1 {
             case 4:
                 Angajati.stream().filter(a->!a.getPost().contains("sef")||!a.getPost().contains("director")).sorted(Comparator.comparing(Angajat::getSalariu)).forEach(System.out::println);
                 break;
+            case 5:
+                    Angajati.stream().map(a->a.getNume().toUpperCase()).forEach(System.out::println);
+                    break;
+            case 6:
+                Angajati.stream().map(Angajat::getSalariu).filter(sal->sal<3000).forEach(System.out::println);
+                break;
         }
     }
 }
