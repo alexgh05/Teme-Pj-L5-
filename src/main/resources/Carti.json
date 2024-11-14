@@ -1,0 +1,13 @@
+[
+  {
+    "Titlu" :"Cartea1",
+    "Autor" : "abcd",
+    "An_aparitie": 2012
+  }
+  ,
+  {
+    "Titlu" :"Cartea2",
+    "Autor" : "adec",
+    "An_aparitie": 1967
+  }
+]
