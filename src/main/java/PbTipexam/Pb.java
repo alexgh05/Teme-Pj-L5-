@@ -76,7 +76,7 @@ public class Pb {
             case 3:
                 Scanner sc2 = new Scanner(System.in);
                 int an;
-               an=is_int(sc2.nextFloat());
+               an=is_int();
 
 
                     Vehicule.stream().filter(a->a.getAn_fabricatie()>an).collect(Collectors.toList()).forEach(System.out::println);
@@ -87,12 +87,19 @@ public class Pb {
 
     }
 
-    private static int is_int(float f) {
+    private static int is_int() {
+        Scanner sc = new Scanner(System.in);
+        float f;
+        f = sc.nextFloat();
+        int y=0;
         if(f==(int)f) {
-            return (int)f;
+            y=(int)f;
         }
         else {
-            return (int)(0);
+            System.out.println("Not a year");
+            is_int();
+
         }
+        return y;
     }
 }
