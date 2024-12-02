@@ -74,7 +74,8 @@ public class Pb {
 
                 break;
             case 3:
-                Scanner sc2 = new Scanner(System.in);
+
+
                 int an;
                an=is_int();
 
@@ -90,7 +91,15 @@ public class Pb {
     private static int is_int() {
         Scanner sc = new Scanner(System.in);
         float f;
-        f = sc.nextFloat();
+        try {
+
+
+            f = sc.nextFloat();
+        }
+        catch (Exception e) {
+            f=0;
+            System.out.println("eroare");
+        }
         int y=0;
         if(f==(int)f) {
             y=(int)f;
